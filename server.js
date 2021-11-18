@@ -29,6 +29,6 @@ app.get('/',(req,res)=>res.send('hello'));
 
 
 app.use(errorHandler);
-app.listen(APP_PORT, ()=>{
-    console.log(`listening to port: ${APP_PORT}`)
+app.listen(5007, ()=>{
+    console.log(`listening to port: 5007`)
 });
