@@ -1,0 +1,14 @@
+npm init
+npm i express 
+npm i cors //to control cors issues
+npm i esm //to use es6 syntax in mongodb
+npm i nodemon -D
+npm i dotenv //to keep secrets,config values
+npm i joi //validation library
+npm i mongoose
+npm i bcrypt
+npm i jsonwebtoken
+npm i --save multer
+
+add -> app.use(express.json()); -> to let express work with json
+
